@@ -3,6 +3,7 @@ body{
     background-color: #eee !important;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     
@@ -149,8 +150,27 @@ footer{
   
     }
 @media (max-width:1200px) {
-  
+   .exp-head{
+    padding-top: 0 !important;
+   }
+  .img-2{ 
+    width: 100%;
+    position: relative;
+   top: -120px;
+    z-index: -1;
+  }
+  .main{
+    padding: 10px 10px 10px 0 !important;
+  }
     
+    .card-2{
+
+        border-radius: 20px !important;
+        z-index: 0;
+    }
+    .card-2 h2{
+        font-size: 24px;
+    }
     .coc-para{
         margin-left: 10px;
         margin-right: 10px;
@@ -167,11 +187,91 @@ footer{
     } 
 }
 @media (min-width:1200px) {
-    header{
-        height: 70px;
+    .exp-img{
+        height: 466px;
+        width: 549px;
+         border-radius: 20px;
+         
+         padding-left: 0px;
+     
+         
+     }
+    .section-1{
+        margin-top: 50px;
     }
-    .nav-item:hover {
-        border-bottom: 2px solid black !important;
+        .main{
+  
+            margin-top: 200px;
+        margin-left: 120px;
+           display: flex;
+        
+            
+        }
+        .card-2{
+            position: relative;
+            top: -80px;
+           margin-left: 500px;
+            background-color: white;
+            padding: 40px;
+            justify-content: left;
+            z-index: 2;
+            border-radius: 20px;
+            box-shadow: 10px 14px 24px rgba(0, 0, 0,0.2);
+            
+          
+        }
+        .img-2{
+            border-radius: 15px;
+             position: absolute;
+              z-index: -1;
+          }
+        .card-2 p{
+            font-size: 18px;
+            line-height:30px;
+            letter-spacing: 1px;
+           
+        
+        }
+    .navbar-nav{
+        height: 100%;
+    }
+    .nav-item{
+        height: 100%;
+    }
+    .nav-link{
+        height: 100%;
+        align-items: center;
+       
+    }
+   .collapse{
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+   }
+    .nav-link{
+        height: 100% !important;
+    }
+    .navbar{
+        height: 100px;
+    }
+    .card-2{
+        z-index: 3;
+    }
+    .img{
+        z-index: 1;
+    }
+    
+   .nav-cont{
+    padding: 0 !important;
+    height: 100% !important;
+   }
+   nav{
+    padding: 0 !important;
+   }
+  
+    .nav-item:hover .nav-link{
+        
+        border-bottom: 5px solid black !important;
     }
     .dropdown:hover .dropdown-menu{
         display: block !important;
@@ -188,9 +288,18 @@ footer{
         background-color: #c7c7c7;
         color: black;  
     } 
+    .view-all{
+        display: block !important;
+    }
+    .view-all a{
+        padding: 10px 110px !important;
+        
+    }
     .brand-card{
-       margin-left: 120px !important;
-        margin-right: 90px !important;
+     display: flex;
+     padding: 10px 40px;
+     justify-content: center;
+     
 
         
     }
