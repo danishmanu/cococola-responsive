@@ -188,7 +188,13 @@ footer{
 }
 
 @media (max-width:600px) {
-  
+  .card-2 p{
+    font-size: 14px;
+  }
+  .exp-button{
+    padding: 2px !important;
+   
+  }
     }
 @media (max-width:1200px) {
    .carousel-caption{
@@ -224,7 +230,7 @@ footer{
        }
    .brand{
     width: 100%;
-    padding-left: 40px !important;
+    padding: 30px !important;
     padding-top: 40px !important;
    }
     .exp-button:hover{
