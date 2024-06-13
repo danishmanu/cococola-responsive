@@ -10,6 +10,47 @@ header{
     display: flex;
     align-items: center;
 }
+.carousel-item img{
+    border-radius: 20px;
+}
+.carousel-caption{
+    font-family: TCCC-UnityText-bold;
+position: relative;
+
+}
+.carousel-caption p{
+    font-family: TCCC-UnityText;
+
+
+}
+.carousel-caption button{
+    background-color: white;
+    padding: 3px 20px;
+    border: 0;
+    border-radius: 10px;
+}
+.carousel .carousel-indicators button {
+  
+width: 20px !important;
+height: 20px !important;
+border-radius: 100%;
+background-color: black !important;
+}
+.carousel .carousel-indicators button.active {
+    background-color: black !important;
+    }
+.footer-about{
+    font-family: TCCC-UnityText-bold;
+    font-size: 20px;
+    color: #D5D5D5;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-about:hover{
+   
+    color: #D5D5D5;
+    
+}
 h2{
     font-family: TCCC-UnityText-bold;
 }
@@ -150,8 +191,13 @@ footer{
   
     }
 @media (max-width:1200px) {
-   .exp-head{
+   .carousel-caption{
+    font-size: 10px;
+   }
+   .exp-heading{
+    margin-top: 0 !important;
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
    }
   .img-2{ 
     width: 100%;
@@ -195,6 +241,12 @@ footer{
          padding-left: 0px;
      
          
+     }
+     .carousel-caption{
+       
+        position: absolute !important;
+        bottom: 10.25rem !important;
+
      }
     .section-1{
         margin-top: 50px;
@@ -268,6 +320,10 @@ footer{
    nav{
     padding: 0 !important;
    }
+   .nav-link{
+        
+    border-bottom: 5px solid white !important;
+}
   
     .nav-item:hover .nav-link{
         

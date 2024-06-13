@@ -89,7 +89,62 @@
 </nav>
             </div>
         </header>
-        <section></section>
+        <section>
+            <div class="container mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+             
+              <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                  <img src="images/width1960 (1).webp" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5 class="text-center">Coming soon</h5>
+                    <p te>An incredible all-new Marvel AR experience. </p>
+                    <button>Find out more</button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.coca-cola.com/content/dam/onexp/in/en/brands/sprite/2560x1208_Desktop_Hero%20image.jpg/width1960.jpg" class="d-block w-100" alt="...">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.coca-cola.com/content/dam/onexp/in/en/homepage/Schweppes%20CCI%20Website%20Banner_2560%20X%201208%20Pix_Updated.jpg/width1960.jpg" class="d-block w-100" alt="...">
+                
+                </div>
+                <div  class="carousel-item ">
+                  <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/brands/fanta/fanta-first-img-desktop.png/width1960.png" class="d-block w-100" alt="...">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage-new-img-resize/Maaza%20banner%204-%20desktop.png/width1960.png" class="d-block w-100" alt="...">
+                 
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage-new-img-resize/1280x604-desktop2.jpg/width1960.jpg" class="d-block w-100" alt="...">
+                 
+                </div>
+              </div>
+              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+              <div class="pt-5 mt-5">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+          </section>
         <section>
             <div class="container-fluid">
                 <div class="row align-items-center">
@@ -222,9 +277,9 @@
 
         </section>
         <section>
-            <div class="container pt-5">
-                <h2 class="exp-head text-center pt-5">Explore Our Brands</h2>
-                <div class="row ps-2 brand-card">
+            <div class="container  pt-xl-5">
+                <h2 class="exp-head exp-heading  text-center pt-xl-5">Explore Our Brands</h2>
+                <div class="row ms-xl-5 ps-xl-5 brand-card">
                     <div class="brand col-6 col-xl-4 mt-3 justify-content-center">
                         <img
                             class="brand-img"
@@ -272,9 +327,9 @@
                 </div>
                 <div class="d-flex justify-content-center">
                 <div class="view-all col-12 d-flex align-middle d-xl-inline  text-center  w-100  ">
-                    <a class="view mt-5 mt-xl-0 ps-sm-3 pe-sm-3 pt-sm-1 pb-sm-1  border w-100  rounded-pill">
+                    <a class="view mt-5 mt-xl-0 ps-sm-3 pe-sm-3 pt-1 pb-1  border w-100  rounded-pill">
                         
-                       View all</a>
+                       View All</a>
                 </div>
             </div>
             </div>
@@ -384,8 +439,8 @@
                 <div class="container-fluid line mt-5"></div>
                 <div class="hi row mt-5 ">
                     <div class="row col-8">
-                        <div class="about-column col-6 col-xl-4">
-                            <h2>ABOUT US</h2>
+                        <div class="d-none d-sm-block about-column col-6 col-xl-4">
+                            <h2 >ABOUT US</h2>
                             <ul>
                                 <li>Our Company</li>
                                 <li>Media Center</li>
@@ -394,30 +449,65 @@
                                 <li>Leadership</li>
                             </ul>
                         </div>
-                        <div class="about-column col-6 col-xl-4">
+                        <div class="d-block d-sm-none   about-column col-12 ">
+                            <div class="col-12"  data-bs-toggle="collapse" href="#collapseExample" >
+                            <a class="footer-about col-8" >ABOUT US</a>
+                            <i class="fa-solid fa-angle-down col-4" style="color: #D5D5D5;"></i>
+                        </div>
+                            <ul class="collapse ms-4" id="collapseExample">
+                                <li>Our Company</li>
+                                <li>Media Center</li>
+                                <li>History</li>
+                                <li>Careers</li>
+                                <li>Leadership</li>
+                            </ul>
+                        </div>
+                        <div class="d-none d-sm-block about-column col-6 col-xl-4">
                             <h2>NEED HELP?</h2>
-                            <ul>
+                            <ul >
                                 <li>FAQ</li>
                                 <li>Sitemap</li>
                                 <li>Contact Us</li>
                             </ul>
                         </div>
-
-                        <div class="term about-column col-6 col-xl-4">
+                        
+                        <div class="d-block d-sm-none  about-column mt-2 col-12 ">
+                            <div class="">
+                            <a class="footer-about "  data-bs-toggle="collapse" href="#collapseExample2" >NEED HELP?</a>
+                            <i class="fa-solid fa-angle-down col-4" style="color: #D5D5D5;"></i>
+                        </div>
+                            <ul class="collapse ms-4" id="collapseExample2">
+                                <li>FAQ</li>
+                                <li>Sitemap</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- <div class="d-block d-sm-none col-12 line mt-5"></div> -->
+                        <div  class="d-none d-sm-block  term about-column col-6 col-xl-4">
                             <h2></h2>
                             <ul>
-                                <li>Terms of Use</li>
+                                <li >Terms of Use</li>
                                 <li>Privacy Policy</li>
                                 <li>Financial & Policy Documents</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-4 me-0 d-none d-xl-block me-0">
+                    <div class="d-block d-sm-none container-fluid line ms-2 mt-5"></div>
+                    <div  class="d-block d-sm-none  term about-column col-6 col-xl-4">
+                        <h2></h2>
+                        <ul>
+                            <li >Terms of Use</li>
+                            <li>Privacy Policy</li>
+                            <li>Financial & Policy Documents</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 me-0 d-none d-xl-block me-0 text-end">
                         <div class="icon footer-colum me-0">
-                            <i class="fa-brands  border rounded-circle p-2 fa-x-twitter" style="color: #ffffff"></i>
-                            <i class="fa-brands border rounded-circle p-2 fa-instagram" style="color: #ffffff"></i>
-                            <i class="fa-brands border rounded-circle p-2 fa-youtube" style="color: #ffffff"></i>
-                            <i class="fa-brands border rounded-circle p-2 px-2 fa-facebook-f" style="color: #ffffff"></i>
+                            <i class="fa-brands  border rounded-circle ms-2 p-2 fa-x-twitter" style="color: #ffffff"></i>
+                            <i class="fa-brands border rounded-circle p-2 ms-2 fa-instagram" style="color: #ffffff"></i>
+                            <i class="fa-brands border rounded-circle p-2 ms-2 fa-youtube" style="color: #ffffff"></i>
+                            <i class="fa-brands border rounded-circle p-2 ms-2 px-2 fa-facebook-f" style="color: #ffffff"></i>
                         </div>
                     </div>
                 </div>
@@ -434,8 +524,9 @@
                 <p class="para pb-0 mb-0 pb-4 pt-3 pt-xl-5 text-start text-xl-end">© 2024 The Coca‑Cola Company. All rights reserved.</p>
             </div>
             </div>
+            
         </footer>
-
+       
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
             integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
