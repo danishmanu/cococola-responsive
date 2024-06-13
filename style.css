@@ -191,6 +191,9 @@ footer{
   .card-2 p{
     font-size: 14px;
   }
+  .main{
+    padding: 2px 2px 2px 2px !important;
+  }
   .exp-button{
     padding: 2px !important;
    
